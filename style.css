@@ -1,0 +1,64 @@
+body{background-color:rgb(164, 164, 191);
+margin:0px;}
+
+header{background-color:rgb(115,56,102);
+text-align: center;
+text-decoration-color: black;
+}
+#minick {margin-top:10px;
+padding-bottom: 12px;
+text-shadow: 5px 1px 8px white;}
+
+#fotito {
+margin-top:8px;
+height: 140px;
+width: 140px;
+}
+
+.Barranavegacion {
+display:inline;
+width:35px;
+align-content: center;
+margin: 15px;
+padding: 4px;
+}
+
+.Barraiconos{text-align: center;
+margin-top:-21px;
+border: solid rgb(0, 0, 0);
+background-color: rgba(235,56,115,255);
+}
+.Barranavegacion{height: auto;
+margin:6px;
+padding:5px;}
+
+.playlist li{text-align: center;
+list-style: none;
+margin-top: 40px;
+margin: 40px;
+}
+
+.playlist ul{margin-bottom: 60px;
+padding: 0%;}
+
+.listitas {text-decoration: none;
+list-style:none;
+border: solid black;
+padding:7px;
+color:black;
+border-radius:10px;
+background-color:rgba(235,56,115,255);
+}
+
+footer{background-color:rgba(235,56,115,255);
+color:black;
+padding: 25px;
+text-align: center
+}
+
+footer {border: solid black ;}
+
+.listitas:hover {background-color:rgb(115,56,102);
+padding:9.5px;
+color:white;
+}
