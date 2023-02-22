@@ -11,7 +11,7 @@ padding: 0;}
 
 .navbar {box-shadow: 1px 5px 15px 4px rgb(251,195,35);
 justify-content: center;
-height: 6vh;
+height: 52px;
 justify-content: space-between;
 }
 
@@ -27,13 +27,13 @@ margin-left: 9px;
 margin-right: 9px;}
 
 .contenido {
-height: 65vh;
+height: 62vh;
 justify-content: center;
 align-items: center;
 }
 
 .contenidoboton {
-height: 23.5vh;
+height: 22vh;
 display: flex;
 justify-content:end;
 align-items: center;}
@@ -54,7 +54,7 @@ width: 320px;
 }
 
 .piedepag {background-color: rgb(251,195,35);
-height: 5vh;
+height: 44px;
 justify-content: center;
 color: #111111;
 }
