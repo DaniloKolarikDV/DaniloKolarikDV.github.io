@@ -27,13 +27,13 @@ margin-left: 9px;
 margin-right: 9px;}
 
 .contenido {
-height: 62vh;
+height: 60vh;
 justify-content: center;
 align-items: center;
 }
 
 .contenidoboton {
-height: 22vh;
+height: 20vh;
 display: flex;
 justify-content:end;
 align-items: center;}
