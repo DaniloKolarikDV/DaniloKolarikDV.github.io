@@ -31,31 +31,28 @@ margin-left: 9px;
 margin-right: 9px;}
 
 .contenido {
-height: 465px;
+height: 85%;
 justify-content: center;
 align-items: center;
 }
 
-.contenidoboton {
-height: 155px;
-display: flex;
-justify-content:end;
-align-items: center;}
+.containerprincipal {
+height: 85vh;}
 
-.fondoboton {border: solid #111111 2px;
-border-radius: 100px;
-padding: 25px;
-margin-right: 35px;
-background-color: rgb(251,195,35);
-height: 30px;
-width: 30px;}
-
-.signomas {height: 30px;
-width: 30px;}
-
-.pochoclos {height: 320px;
-width: 320px;
+.pochoclos {width: 300px;
+height: 300px;
 }
+
+.botonagregar {justify-content: end;
+}
+
+#signomas {height: 50px;
+width: 50px;
+background-color: #fbc323;
+border:solid #111111 2px;
+border-radius: 100%;
+padding: 7px;
+margin-right: 35px;}
 
 .piedepag {background-color: #fbc323;
 height: 44px;
@@ -77,25 +74,27 @@ text-align: center;
 font-size: 32px;}
 
 .agregaractividad {
-height: 560px;
 justify-content:center;}
 
 .formularioactividad {border: solid #fbc323;
 box-shadow: 0px 10px 25px #fbc323;
-height: 400px;
-margin: 50px;
+height: 430px;
+width: 90%;
+margin: 70px;
 padding: 25px;}
 
 .formularioactividad input {width: 97%;}
 
 .agregardescripcion {height: 55px;}
 
-.botonagregaractividad button {justify-content: center;
+.botonagregaractividad a {justify-content: center;
 height: 30px;
 width: 100px;
 background-color: transparent;
 border: solid #fbc323 3px;
-font-size: 15px;
+font-size: 20px;
+margin: 15px;
+text-align: center;
 }
 
 .formularioactividad h5 {color: #fbc323;
@@ -103,3 +102,5 @@ margin-bottom: 5px;}
 
 .formularioactividad button {margin: 25px 10px 25px 5px;
 }
+
+h5 {font-size: 15px;}
