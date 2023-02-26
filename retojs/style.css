@@ -8,6 +8,10 @@ padding: 0;}
 }
 
 .flex {display: flex;}
+.oculto {display: none;}
+
+.center {text-align: center;
+justify-content: center;}
 
 .navbar {box-shadow: 1px 5px 15px 4px rgb(251,195,35);
 justify-content: center;
@@ -27,13 +31,13 @@ margin-left: 9px;
 margin-right: 9px;}
 
 .contenido {
-height: 60vh;
+height: 465px;
 justify-content: center;
 align-items: center;
 }
 
 .contenidoboton {
-height: 20vh;
+height: 155px;
 display: flex;
 justify-content:end;
 align-items: center;}
@@ -53,7 +57,7 @@ width: 30px;}
 width: 320px;
 }
 
-.piedepag {background-color: rgb(251,195,35);
+.piedepag {background-color: #fbc323;
 height: 44px;
 justify-content: center;
 color: #111111;
@@ -67,3 +71,35 @@ footer h4 a:hover {
 font-size: 20px;
 font-family: fuente2;
 text-decoration: none;}
+
+.tituloagregaractividad {margin:0px;
+text-align: center;
+font-size: 32px;}
+
+.agregaractividad {
+height: 560px;
+justify-content:center;}
+
+.formularioactividad {border: solid #fbc323;
+box-shadow: 0px 10px 25px #fbc323;
+height: 400px;
+margin: 50px;
+padding: 25px;}
+
+.formularioactividad input {width: 97%;}
+
+.agregardescripcion {height: 55px;}
+
+.botonagregaractividad button {justify-content: center;
+height: 30px;
+width: 100px;
+background-color: transparent;
+border: solid #fbc323 3px;
+font-size: 15px;
+}
+
+.formularioactividad h5 {color: #fbc323;
+margin-bottom: 5px;}
+
+.formularioactividad button {margin: 25px 10px 25px 5px;
+}
