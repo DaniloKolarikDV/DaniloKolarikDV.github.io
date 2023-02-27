@@ -46,7 +46,7 @@
             <hr>
     
            <div class="botonagregaractividad flex">
-                 <a>cancelar</a>
+                 <a onclick="ocultarrellenar();">cancelar</a>
                  <a>crear</a>
           </div>
         </form>
@@ -72,6 +72,12 @@
 
             function ocultarelboton () {
                 document.getElementById('ocultarboton').style.display='none';
+            }
+
+            function ocultarrellenar () {
+                document.getElementById('mostraragregar').style.display='none';
+                document.getElementById('ocultarambos').style.display='flex';
+                document.getElementById('ocultarboton').style.display='flex';
             }
     </script>
 </body>
