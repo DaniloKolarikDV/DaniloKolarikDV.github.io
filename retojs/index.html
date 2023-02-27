@@ -16,12 +16,12 @@
 
   <div class="containerprincipal">
 
-    <div class="contenido flex">
+    <div class="contenido flex" id="ocultarlo">
         <a href="http://www.codearock.com/"><img class="pochoclos" src="imagenes/relax_beach_holidays_icon_192178.png" alt="pochoclos"></a>
     </div>
-    <a class="botonagregar flex" href=""><img id="signomas" src="imagenes/signomas.svg" alt=""></a>
+    <button class="botonagregar flex" id="ocultarelboton" onclick="mostrar();ocultar();"   href=""><img id="signomas" src="imagenes/signomas.svg" alt=""></button>
 
-      <div class="agregaractividad flex oculto">
+      <div class="agregaractividad flex oculto" id="botonmostrar">
         
     
         <form action="agregar una actividad" class="formularioactividad">
@@ -59,5 +59,15 @@
         <h4>Created by : <a href="https://www.instagram.com/danilo.kolarikk/"> Danilo Kolarik</a></h4>
     </footer>
 
+    <script>
+            function mostrar (){
+               document.getElementById('botonmostrar').style.display='flex';
+            }
+
+            function ocultar (){
+                document.getElementById('ocultarlo').style.display='none';
+                document.getElementById('ocultarelboton').style.display='none'
+            }
+    </script>
 </body>
 </html>
