@@ -37,7 +37,7 @@ align-items: center;
 }
 
 .containerprincipal {
-height: 85vh;}
+height: 83vh;}
 
 .pochoclos {width: 300px;
 height: 300px;
@@ -73,7 +73,8 @@ text-decoration: none;}
 
 .tituloagregaractividad {margin:0px;
 text-align: center;
-font-size: 32px;}
+font-size: 32px;
+font-family: fuente2;}
 
 .agregaractividad {
 justify-content:center;
@@ -83,8 +84,9 @@ width: 100%;}
 box-shadow: 0px 10px 25px #fbc323;
 height: 430px;
 width: 65%;
-margin: 55px;
-padding: 25px;
+margin: 70px;
+padding: 17px;
+padding-bottom: 30px;
 }
 
 .formularioactividad input {width: 97%;}
@@ -97,6 +99,7 @@ width: 100px;
 background-color: transparent;
 border: solid #fbc323 3px;
 font-size:15px;
+font-family: fuente2;
 margin: 22px;
 text-align:center;
 
