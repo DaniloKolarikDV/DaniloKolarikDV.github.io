@@ -17,6 +17,8 @@ justify-content: center;}
 justify-content: center;
 height: 52px;
 justify-content: space-between;
+width: auto;
+min-width: auto;
 }
 
 .titulati {color: rgb(251,195,35);
@@ -37,7 +39,10 @@ align-items: center;
 }
 
 .containerprincipal {
-height: 83vh;}
+height: 83vh;
+width: auto;
+justify-content: center;
+}
 
 .pochoclos {width: 300px;
 height: 300px;
@@ -59,6 +64,7 @@ margin-right: 35px;}
 
 .piedepag {background-color: #fbc323;
 height: 44px;
+min-width: 400px;
 justify-content: center;
 color: #111111;
 }
@@ -78,13 +84,13 @@ font-size: 32px;
 font-family: fuente2;}
 
 .agregaractividad {
-width: 80%;
-margin: 10px;}
+justify-content: center;
+}
 
 .formularioactividad {border: solid #fbc323;
 box-shadow: 0px 10px 25px #fbc323;
-height: 430px;
-width: 65%;
+height: 435px;
+width: 250px;
 margin: 70px;
 padding: 17px;
 padding-bottom: 30px;
@@ -95,7 +101,7 @@ padding-bottom: 30px;
 .agregardescripcion {height: 55px;}
 
 .botonagregaractividad a {
-height: auto;
+height: 20px;
 width: 100px;
 padding: 3px;
 background-color: transparent;

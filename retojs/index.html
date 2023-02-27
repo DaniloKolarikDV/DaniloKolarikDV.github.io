@@ -10,38 +10,40 @@
 <body>
     <nav class="navbar flex">
         <a href="https://www.faebook.com"><img class="iconos" src="imagenes/usuario.svg" alt="usuario"></a>
-        <h1 class="titulati">Anotale</h1>
+        <h1 class="titulati">Notero</h1>
         <a href="https://www.faebook.com"><img class="iconos" src="imagenes/vermas.svg" alt="ver mas"></a>
     </nav>
 
   <div class="containerprincipal">
 
-    <div class="contenido flex" id="ocultarlo">
+    <div class="contenido flex" id="ocultarambos">
         <a href="http://www.codearock.com/"><img class="pochoclos" src="imagenes/relax_beach_holidays_icon_192178.png" alt="pochoclos"></a>
     </div>
-    <button class="botonagregar flex" id="ocultarelboton" onclick="mostrar();ocultar();"   href=""><img id="signomas" src="imagenes/signomas.svg" alt=""></button>
 
-      <div class="agregaractividad flex oculto" id="botonmostrar">
+     <div id="ocultarboton"><button class="botonagregar" id="ocultarambos" onclick='ocultarlos();mostrar();ocultarelboton();'><img id="signomas" src="imagenes/signomas.svg" alt=""></button></div>
+
+
+      <div class="agregaractividad flex oculto" id="mostraragregar">
         
     
-        <form action="agregar una actividad flex" class="formularioactividad">
+        <form action="agregar una actividad" class="formularioactividad">
     
             <h3 class="tituloagregaractividad">Nueva tarea</h3>
             <hr>
     
             <h5>Nombre de la tarea</h5>
-        <input type="text">
+            <input type="text">
     
-        <h5>tipo de tarea</h5>
-        <input type="text">
+            <h5>tipo de tarea</h5>
+            <input type="text">
     
-        <h5>Descripcion</h5>
-        <input type="text" class="agregardescripcion">
+            <h5>Descripcion</h5>
+            <input type="text" class="agregardescripcion">
     
-        <h5>Pioridad</h5>
-        <input type="text">
+            <h5>Pioridad</h5>
+            <input type="text">
     
-        <hr>
+            <hr>
     
            <div class="botonagregaractividad flex">
                  <a>cancelar</a>
@@ -61,12 +63,15 @@
 
     <script>
             function mostrar (){
-               document.getElementById('botonmostrar').style.display='flex';
+               document.getElementById('mostraragregar').style.display='flex';
             }
 
-            function ocultar (){
-                document.getElementById('ocultarlo').style.display='none';
-                document.getElementById('ocultarelboton').style.display='none'
+            function ocultarlos () {
+                document.getElementById('ocultarambos').style.display='none';
+            }
+
+            function ocultarelboton () {
+                document.getElementById('ocultarboton').style.display='none';
             }
     </script>
 </body>
