@@ -110,22 +110,25 @@ border: solid black 2px;
 .agregardescripcion {height: 55px;}
 
 .botonagregaractividad a {
-height: 20px;
-width: 100px;
-padding: 5px;
+height: 25px;
+width: auto;
+padding: 10px;
 border: #111111 solid ;
-font-size:15px;
+font-size:18px;
 font-family: fuente2;
 margin: 22px;
 text-align:center;
 color: black;
-border-radius: 20px;
+border-radius: 10px;
 }
 
 .botonagregaractividad a:hover {
-    font-size: 17px;
+    
     background-color: #fbc323;
-    color:#111111;
+    color:#fbc323;
+    box-shadow: 0px 1px 9px 20px rgba(0,0,0,0.66) inset;
+-webkit-box-shadow: 0px 1px 9px 20px rgba(0,0,0,0.66) inset;
+-moz-box-shadow: 0px 1px 9px 20px rgba(0,0,0,0.66) inset;
 }
 
 .formularioactividad h5 {color: #fbc323;
@@ -145,3 +148,36 @@ hr {
 
 #botoncancelar{background-color: rgba(255, 0, 0, 0.685);}
 #botoncrear {background-color: rgba(0, 128, 0, 0.568);}
+
+
+.containerselectores {justify-content: center;}
+
+.selectorcolores {
+height: 20px;
+width: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+justify-content: left;
+}
+
+.selectorcolores li{display: inline;
+}
+
+.circulo{height: 20px;
+padding: 0;
+margin-left: 5px;
+border-radius: 100%;
+margin-right: 70px;
+}
+
+.prioridad {font-family: fuente2;
+color: black;
+margin-top: 20px;
+margin-bottom: 3px;}
+
+#circulo2{background-color: green;}
+
+#circulo3{background-color: orange;}
+
+#circulo4{background-color: red;
+}
