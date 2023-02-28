@@ -34,9 +34,16 @@
             <h5>Nombre de la tarea</h5>
             <input type="text">
     
-            <h5>tipo de tarea</h5>
-            <input type="text">
-    
+            <h5>Tipo de tarea</h5>
+            <select name="seleccione" id="">
+               <option value="Seleccione"></option> 
+               <option value="Hogarña">Hogareña</option>
+               <option value="Laboral">Laboral</option>
+               <option value="Estudio">Estudio</option>
+               <option value="Bienestar">Bienestar</option>
+            
+            </select> 
+              
             <h5>Descripcion</h5>
             <input type="text" class="agregardescripcion">
     
@@ -46,8 +53,8 @@
             <hr>
     
            <div class="botonagregaractividad flex">
-                 <a onclick="ocultarrellenar();">cancelar</a>
-                 <a>crear</a>
+                 <a id="botoncancelar" onclick="ocultarrellenar();">cancelar</a>
+                 <a id=botoncrear >crear</a>
           </div>
         </form>
     

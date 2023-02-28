@@ -98,27 +98,34 @@ padding: 17px;
 padding-bottom: 30px;
 }
 
-.formularioactividad input {width: 97%;}
+.formularioactividad input{width: 97%; border: solid black 2px;
+background-color: #80808091;
+font-size: 15px;}
+
+.formularioactividad select {background-color: #fbc1234d;
+font-size: 15px;
+border: solid black 2px;
+}
 
 .agregardescripcion {height: 55px;}
 
 .botonagregaractividad a {
 height: 20px;
 width: 100px;
-padding: 3px;
-background-color: transparent;
-border: solid #fbc323 3px;
+padding: 5px;
+border: #111111 solid ;
 font-size:15px;
 font-family: fuente2;
 margin: 22px;
 text-align:center;
+color: black;
+border-radius: 20px;
 }
 
 .botonagregaractividad a:hover {
     font-size: 17px;
     background-color: #fbc323;
     color:#111111;
-    width: 150px;
 }
 
 .formularioactividad h5 {color: #fbc323;
@@ -129,3 +136,12 @@ margin-bottom: 5px;}
 
 h5 {font-size: 15px;}
 
+hr {
+    height: 2px;
+    background-color:#fbc323;
+    border: none;
+}
+
+
+#botoncancelar{background-color: rgba(255, 0, 0, 0.685);}
+#botoncrear {background-color: rgba(0, 128, 0, 0.568);}
